@@ -1,0 +1,55 @@
+<mxfile host="Electron" modified="2023-05-06T14:47:11.084Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="Leg4SCm4Atxd4dGRX-yg" version="21.2.8" type="device">
+  <diagram name="Page-1" id="GhauSfd4BBByoaSz2qmc">
+    <mxGraphModel dx="977" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-1" value="Criar conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-2" value="Editar conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="_wwaJvOK90QG1Qcl5ri7-6" target="_wwaJvOK90QG1Qcl5ri7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-4" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_wwaJvOK90QG1Qcl5ri7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-6" value="Alterar senha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-7" value="Deletar conta" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="_wwaJvOK90QG1Qcl5ri7-7" target="_wwaJvOK90QG1Qcl5ri7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="303" as="sourcePoint" />
+            <mxPoint x="420" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-10" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_wwaJvOK90QG1Qcl5ri7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-11" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="_wwaJvOK90QG1Qcl5ri7-11" target="_wwaJvOK90QG1Qcl5ri7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_wwaJvOK90QG1Qcl5ri7-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="_wwaJvOK90QG1Qcl5ri7-11" target="_wwaJvOK90QG1Qcl5ri7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="192" as="sourcePoint" />
+            <mxPoint x="351" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
